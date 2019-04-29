@@ -15,7 +15,7 @@ class SessionsController < OpenReadController
 
   # POST /sessions
   def create
-    @session = current_user.sessions.new(session_params)
+    @session = current_user.sessions.build(session_params)
 
     if @session.save
       render json: @session, status: :created, location: @session

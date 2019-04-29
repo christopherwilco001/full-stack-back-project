@@ -7,9 +7,9 @@ curl "http://localhost:4741/sessions" \
   --header "Authorization: Token token=${TOKEN}" \
   --data '{
     "session": {
-      "coach": "fesff",
-      "length": "mmmm",
-      "activity": "activity"
+      "coach": "'"${COACH}"'",
+      "length": "'"${LENGTH}"'",
+      "activity": "'"${ACTIVITY}"'"
     }
   }'
 
