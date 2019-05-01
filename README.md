@@ -15,6 +15,13 @@ While signed in, a user is able to create, delete and update a "Session".
 
 https://i.imgur.com/3odAa4T.jpg
 
+### Links to Repos/Deployed sites
+
+Front end repo https://github.com/christopherwilco001/full-stack-front-end
+Front end deployed site https://christopherwilco001.github.io/full-stack-front-end/
+Back end repo https://github.com/christopherwilco001/full-stack-back-project
+Back end deployed site https://thawing-castle-12546.herokuapp.com
+
 ### Technology
 
 - Ruby

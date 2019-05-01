@@ -41,7 +41,7 @@ class SessionsController < OpenReadController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_session
-      @session = Session.find(params[:id])
+      @session = current_user.sessions.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
