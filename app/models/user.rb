@@ -2,5 +2,5 @@
 
 class User < ApplicationRecord
   include Authentication
-  has_many :sessions
+  has_many :sessions, :meals
 end

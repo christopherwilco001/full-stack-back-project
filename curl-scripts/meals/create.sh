@@ -1,13 +1,12 @@
-curl "http://localhost:4741/sessions" \
+curl "http://localhost:4741/meals" \
   --include \
   --request POST \
   --header "Content-Type: application/json" \
   --header "Authorization: Token token=${TOKEN}" \
   --data '{
-    "session": {
-      "coach": "'"${COACH}"'",
-      "length": "'"${LENGTH}"'",
-      "activity": "'"${ACTIVITY}"'"
+    "meal": {
+      "name": "'"${NAME}"'",
+      "calories": "'"${CALORIES}"'"
     }
   }'
 
